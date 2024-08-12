@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html> 
+    <p align="center" class="helo-p">Hello Welcome to my First Website!!</p>
+
+    <style>
+        body{
+            background: black;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow-y: scroll;
+            scrollbar-width: thin; /* For Firefox */
+            scrollbar-color: yellow black; /* For Firefox */
+        }
+
+        /* Scrollbar styling for WebKit browsers (Chrome, Safari) */
+        body::-webkit-scrollbar {
+            width: 12px; /* Width of the scrollbar */
+        }
+
+        body::-webkit-scrollbar-track {
+            background: rgb(255, 221, 0); /* Background of the scrollbar track */
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: yellow; /* Color of the scrollbar thumb */
+            border-radius: 10px; /* Roundness of the scrollbar thumb */
+            border: 2px solid black; /* Border around the thumb */
+        }
+
+        .helo-p {
+            font-family: Oswald;
+            font-weight: bold;
+            font-size: x-large;  
+            color: rgb(255, 255, 0);
+            transform: translateY(3px);
+        }
+
+        .helo-p--visible {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+
+        .imghim {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 1px 1px 20px yellow; 
+            cursor: grab;
+        }
+        .imher-p {
+            font-family: Oswald;
+            font-weight: 500;
+            font-size: medium;
+            color: rgb(255, 255, 0);
+            margin-top: 40px;
+
+
+        }
+
+        .they-p {
+            font-family: Oswald;
+            font-weight: 500;
+            font-size: medium;
+            color: rgb(255, 255, 0);
+            margin-top: 10px;
+        }
+
+        .ap-button{
+            background-color: black;
+         color:rgb(255, 255, 0);
+         border-radius: 30px;
+         border: none;
+         width: 200px;
+         height: 50px;
+         box-shadow: 1px 1px 20px yellow;
+         margin-left: 40px;
+         cursor: grab;
+         transition: 0.3s ease;
+         
+        }
+
+        .geo-button{
+            background-color: black;
+         color:rgb(255, 255, 0);
+         border-radius: 30px;
+         border: none;
+         width: 200px;
+         height: 50px;
+         box-shadow: 1px 1px 20px yellow;
+         margin-left: 40px;
+         cursor: grab;
+        }
+
+        .earth-button{
+            background-color: black;
+         color:rgb(255, 255, 0);
+         border-radius: 30px;
+         border: none;
+         width: 200px;
+         height: 50px;
+         box-shadow: 1px 1px 20px yellow;
+         margin-top: 20px;
+         margin-left: 450px;
+         cursor: grab;
+        }
+        .ap-button:hover{
+            cursor: grab;
+            background: rgb(255, 255, 20);
+            box-shadow: 0 0 5px rgb(255, 255, 20),
+            0 0 20px rgb(255, 255, 20),
+            0 0 60px rgb(255, 255, 20),
+            0 0 150px rgb(255, 255, 20);
+            color: black;
+            
+        }
+
+        .geo-button:hover{
+            cursor: grab;
+            background: rgb(255, 255, 20);
+            box-shadow: 0 0 5px rgb(255, 255, 20),
+            0 0 20px rgb(255, 255, 20),
+            0 0 60px rgb(255, 255, 20),
+            0 0 150px rgb(255, 255, 20);
+            color: black;
+            
+        }
+
+        .earth-button:hover{
+            cursor: grab;
+            background: rgb(255, 255, 20);
+            box-shadow: 0 0 5px rgb(255, 255, 20),
+            0 0 20px rgb(255, 255, 20),
+            0 0 60px rgb(255, 255, 20),
+            0 0 150px rgb(255, 255, 20);
+            color: black;
+         
+        }
+        .rdot-p{
+            font-family: Oswald;
+            font-weight: 500;
+            font-size: medium;
+            color: rgb(255, 255, 0);
+            margin-top: 40px;
+            margin-left: 480px;
+        }
+    </style>
+
+<head>
+    <title>DAH-PLUG</title>
+</head>
+
+<body>
+    <img src="c:\Users\Alton\OneDrive\Sicence Reserarch 2024\Pictures\500873fc71a64b5c9269b3be69668e3c-free.png" class="imghim" height="400px" width="400px" title="DAHPLUG" > 
+</body>
+<p align="center" class="imher-p"> 
+    Hello, I'm a Sophmore in Highshcool and my mission is to set you up for academic sucess via the use of the various resources <br>
+    listed here. To get ahead of the rest of your classmates and ciriculum you must put additional effort and time into studying <br>
+    so these reources from my videos on youtube, the notes provided on this website and the worksheets that will be added in the <br>
+    spring of 2025 were all specifically desinged to aid you while studying. 
+    
+</p>
+<P align="center" class="they-p">
+    Note: Please do not use these resources as a replacement for studying as this is essentially a summarization of the <br>
+     courses that you will be doing and not the full course. Additionally all these resources were produced via the use <br>
+    of Articial Intelligence Technologies and fact-checked by myself personally.
+</P>
+<button onclick="location.href='https://youtube.com'" class="earth-button">Earth Science</button>
+<button onclick="location.href='https://youtube.com'" class="geo-button">Geometry</button>
+<button onclick="location.href='https://youtube.com'" class="ap-button">AP Human Geography</button>
+
+<p class="rdot-p">Please click on one of these buttons to redirect you to the webpage of the topic you will like to study.</p>
+
+</html>
